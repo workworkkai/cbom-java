@@ -14,7 +14,6 @@ public class cryptoAssetDetectionTest {
 
     public static void main(String[] args) {
         try {
-            // Original test cases
             testBouncyCastleAES();
             testJCARSA();
             testSSLSocket();
@@ -26,8 +25,7 @@ public class cryptoAssetDetectionTest {
             testPBKDF2();
             testDSA();
 
-            // New test cases for detection methods
-            testObfuscatedNames();
+            testObfuscated();
             testStringLiterals();
             testDynamicMethodInvocation();
             testCustomWrapper();
@@ -35,7 +33,6 @@ public class cryptoAssetDetectionTest {
             testUnusedImports();
             testNonCryptoSimilarNames();
 
-            // Additional requested test cases
             testRSAWithDifferentKeySizes();
             testAdditionalEllipticCurves();
             testAdditionalHashFunctions();
@@ -152,15 +149,26 @@ public class cryptoAssetDetectionTest {
         System.out.println("DSA Signature: " + Base64.getEncoder().encodeToString(signature));
     }
 
-    // New test methods for detection
-    public static void testObfuscatedNames() throws Exception {
-        KeyGenerator kg = KeyGenerator.getInstance("AES");
-        SecretKey k = kg.generateKey();
-        Cipher c = Cipher.getInstance("AES/ECB/PKCS5Padding");
-        c.init(Cipher.ENCRYPT_MODE, k);
-        byte[] ct = c.doFinal("test".getBytes());
-        System.out.println("Obfuscated AES: " + Base64.getEncoder().encodeToString(ct));
+    public static void testObfuscated() throws Exception{
+        String[] encodedData = {"QUVT", "QUVTL0VDQi9QS0NTNVBhZGRpbmc=", "T2JmdXNjYXRlZCBBRVM6IA==", "dGVzdA=="};
+
+        // Decoding the Base64 strings into usable data
+        byte[] algorithm = Base64.getDecoder().decode(encodedData[0]); // "AES"
+        byte[] cipherTransformation = Base64.getDecoder().decode(encodedData[1]); // "AES/ECB/PKCS5Padding"
+        byte[] prefixMessage = Base64.getDecoder().decode(encodedData[2]); // "Obfuscated AES: "
+        byte[] plainText = Base64.getDecoder().decode(encodedData[3]); // "test"
+
+        // Setting up the KeyGenerator, Cipher, and SecretKey for AES encryption
+        KeyGenerator keyGenerator = KeyGenerator.getInstance(new String(algorithm));
+        SecretKey secretKey = keyGenerator.generateKey();
+        Cipher cipher = Cipher.getInstance(new String(cipherTransformation));
+        cipher.init(Cipher.ENCRYPT_MODE, secretKey);
+        // Performing encryption
+        byte[] encryptedText = cipher.doFinal(plainText);
+        // Printing the result as Base64 encoded ciphertext
+        System.out.println(new String(prefixMessage) + Base64.getEncoder().encodeToString(encryptedText));
     }
+
 
     public static void testStringLiterals() {
         String algorithm = "AES/ECB/PKCS5Padding";
