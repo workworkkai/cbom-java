@@ -1,0 +1,55 @@
+[2024-11-12 16:18:49,767] [  Thread-1] [ INFO] [com.ibm.quantumsafe.service.impl.CryptoScannerServiceImpl] - QS-Explorer: Scan initiated for module initiated with scan ID 1deae850b9584ad298928f1b99519d7a
+[2024-11-12 16:18:49,803] [4-thread-1] [ INFO] [com.ibm.quantumsafe.integrator.impl.IntegratorAPIImpl] - Running Task: Getting Application name
+[2024-11-12 16:18:49,803] [4-thread-2] [ INFO] [com.ibm.quantumsafe.integrator.impl.IntegratorAPIImpl] - Running Task: Calling DriverImpl
+[2024-11-12 16:18:49,804] [4-thread-2] [ INFO] [com.ibm.quantumsafe.analytics.utility.DeleteTask] - Running Task                  : Cleaning up output directory 
+[2024-11-12 16:18:49,806] [4-thread-1] [ INFO] [com.ibm.quantumsafe.integrator.impl.IntegratorAPIImpl] - Application name of the project under scan:  
+[2024-11-12 16:18:49,806] [4-thread-2] [ INFO] [com.ibm.quantumsafe.analytics.utility.DeleteTask] - Running Task                  : Cleaning up output directory completed. 
+[2024-11-12 16:18:49,852] [4-thread-2] [ INFO] [com.ibm.quantumsafe.sca.framework.standalone.StandaloneTask] - 2.0.0.202310.00022 -- Generated On Tue Nov 12 16:18:49 SGT 2024
+[2024-11-12 16:18:49,862] [4-thread-2] [ INFO] [com.ibm.quantumsafe.lang.driver.DriverBase] - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++                PARAMETERS SENT TO SCA AND ANALYTICS
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ app-name                                :  
++ class-files-path                        : ./target/classes;./target/dependency
++ clean-result-flag                       : true
++ data_analytics                          : da
++ error-log-file                          : qs_scan_result/log/sca-err.log
++ parameter-detail-results                : true
++ parameter-execution-mode                : delete-project-root,crypto-name-matching-only,multi-language-selection,build-data-for-crypto-analysis
++ parameter-language-processing-list      : .java
++ parameter-path-exclusion-filter         : 
++ parameter-run-single-step               : delete-project-root,multi-language-selection,build-data-for-crypto-analysis
++ parameter-scan-type                     : P
++ parameter-tab-size                      : 1
++ parameter-transaction-id                : 1deae850b9584ad298928f1b99519d7a
++ parameter-use-absolute-source-paths     : true
++ project-output-dir                      : C:/Users/kai/Desktop/cbom-java/qs_scan_result
++ project-output-root                     : C:/Users/kai/Desktop/cbom-java
++ root                                    : C:\Users\kai\Desktop\cbom-java
++ run-log-file                            : qs_scan_result/log/sca.log
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[2024-11-12 16:18:49,865] [4-thread-2] [ INFO] [com.ibm.quantumsafe.sca.lang.general.task.impl.ClearAnalyticsScanResultsImpl] - Running Task: ClearAnalyticsScanResults
+[2024-11-12 16:18:49,869] [4-thread-2] [ INFO] [com.ibm.quantumsafe.sca.typeresolver.javac.ClassAnalyzerAPI] - Validating and forming absolute class-path and dependencies path.
+[2024-11-12 16:18:49,872] [4-thread-2] [ INFO] [com.ibm.quantumsafe.sca.typeresolver.javac.ClassAnalyzerAPI] - Loading jars from classpath
+[2024-11-12 16:18:49,886] [4-thread-2] [ INFO] [com.ibm.quantumsafe.sca.framework.standalone.StandaloneTask] - Running Task: com.ibm.quantumsafe.sca.lang.java.task.impl.AntlrJavaParserImpl
+[2024-11-12 16:18:49,894] [4-thread-2] [ INFO] [com.ibm.quantumsafe.sca.framework.standalone.StandaloneTask] - Running Task: com.ibm.quantumsafe.sca.framework.common.JavaGenerateGraphModelImpl
+[2024-11-12 16:18:49,951] [4-thread-2] [ INFO] [com.ibm.quantumsafe.sca.framework.standalone.StandaloneTask] - Total number of source files to be processed: 6
+[2024-11-12 16:18:50,646] [4-thread-2] [ INFO] [com.ibm.quantumsafe.sca.framework.standalone.CryptoFileFilter] - Number of possible crypto relevant files is 4 out of total 6 files
+[2024-11-12 16:18:50,736] [4-thread-2] [ INFO] [com.ibm.quantumsafe.sca.slicer.graph.GraphsManager] - Analyzing     1/4 C:/Users/kai/Desktop/cbom-java/src/main/java/com/example/JcaTest.java
+[2024-11-12 16:18:50,987] [4-thread-2] [ INFO] [com.ibm.quantumsafe.sca.slicer.graph.GraphsManager] - Analyzing     2/4 C:/Users/kai/Desktop/cbom-java/src/main/java/com/example/NimbusJoseTest.java
+[2024-11-12 16:18:51,136] [4-thread-2] [ INFO] [com.ibm.quantumsafe.sca.slicer.graph.GraphsManager] - Analyzing     3/4 C:/Users/kai/Desktop/cbom-java/src/main/java/com/example/BouncyCastleTest.java
+[2024-11-12 16:18:51,150] [4-thread-2] [ INFO] [com.ibm.quantumsafe.sca.slicer.graph.GraphsManager] - Analyzing     4/4 C:/Users/kai/Desktop/cbom-java/src/main/java/com/example/Main.java
+[2024-11-12 16:18:51,153] [4-thread-2] [ INFO] [com.ibm.quantumsafe.sca.slicer.graph.GraphsManager] - Graph generated successfully for 0 out of 4 input source files.
+[2024-11-12 16:18:51,591] [  Thread-1] [ INFO] [com.ibm.cryptoanalytics.model.input.AnalyzedProgram] - Initiation of Slice Reading from the Slicer Object via Analytics
+[2024-11-12 16:18:51,770] [  Thread-1] [ INFO] [com.ibm.cryptoanalytics.model.input.AnalyzedProgram] - The initiation of slice reading has ended.
+[2024-11-12 16:18:51,979] [  Thread-1] [ INFO] [com.ibm.cryptoanalytics.analytics.CryptoAnalytics] - Initiation of Analyzing the output of Slicer Data.
+[2024-11-12 16:18:51,990] [  Thread-1] [ INFO] [com.ibm.cryptoanalytics.analytics.CryptoAnalytics] - Initiation of analyizing each slice present in the Slicer Object.
+[2024-11-12 16:18:51,990] [  Thread-1] [ INFO] [com.ibm.cryptoanalytics.analytics.CryptoAnalytics] - Analyizing and Building asset from each slice present in the Slicer Object completed.
+[2024-11-12 16:18:52,000] [  Thread-1] [ INFO] [com.ibm.quantumsafe.analytics.report.CryptoResponseImpl] - Generating CryptoResponse - Findings Json
+[2024-11-12 16:18:52,010] [  Thread-1] [ INFO] [com.ibm.quantumsafe.analytics.report.CryptoResponseImpl] - Total Assets generated: 0
+[2024-11-12 16:18:52,013] [  Thread-1] [ INFO] [com.ibm.quantumsafe.analytics.report.MetricsImpl] - Generating Metrics
+[2024-11-12 16:18:52,032] [  Thread-1] [ INFO] [com.ibm.quantumsafe.analytics.report.CycloneDxBomImpl] - Generating CycloneDx CBOM
+[2024-11-12 16:18:52,137] [  Thread-1] [ INFO] [com.ibm.quantumsafe.analytics.report.FlatCryptoResponseImpl] - Generating FlatCryptoResponse - crypto inventory json
+[2024-11-12 16:18:52,152] [  Thread-1] [ INFO] [com.ibm.quantumsafe.analytics.report.MetricsImpl] - Generating Metrics
+[2024-11-12 16:18:52,171] [  Thread-1] [ INFO] [com.ibm.quantumsafe.service.impl.CryptoScannerServiceImpl] - Total Num of Lines Scanned: 108496930
+[2024-11-12 16:18:52,183] [  Thread-1] [ INFO] [com.ibm.quantumsafe.service.impl.CryptoScannerServiceImpl] - QS-Explorer: Scanning for module/project completed for the scan ID 1deae850b9584ad298928f1b99519d7a

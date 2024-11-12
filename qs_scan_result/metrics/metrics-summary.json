@@ -1,0 +1,56 @@
+{
+  "mapCollections": {
+    "java": {
+      "map": {
+        "C:/Users/kai/Desktop/cbom-java/src/main/java/com/example/BouncyCastleTest.java": {
+          "path": "C:/Users/kai/Desktop/cbom-java/src/main/java/com/example/BouncyCastleTest.java",
+          "totalLinesOfCode": 472,
+          "activeLinesOfCode": 365,
+          "methodDefined": 13,
+          "methodCalls": 360,
+          "variables": 150
+        },
+        "C:/Users/kai/Desktop/cbom-java/src/main/java/com/example/JcaTest.java": {
+          "path": "C:/Users/kai/Desktop/cbom-java/src/main/java/com/example/JcaTest.java",
+          "totalLinesOfCode": 201,
+          "activeLinesOfCode": 127,
+          "methodDefined": 11,
+          "methodCalls": 113,
+          "variables": 43
+        },
+        "C:/Users/kai/Desktop/cbom-java/src/main/java/com/example/Main.java": {
+          "path": "C:/Users/kai/Desktop/cbom-java/src/main/java/com/example/Main.java",
+          "totalLinesOfCode": 40,
+          "activeLinesOfCode": 26,
+          "methodDefined": 1,
+          "methodCalls": 20,
+          "variables": 2
+        },
+        "C:/Users/kai/Desktop/cbom-java/src/main/java/com/example/NimbusJoseTest.java": {
+          "path": "C:/Users/kai/Desktop/cbom-java/src/main/java/com/example/NimbusJoseTest.java",
+          "totalLinesOfCode": 397,
+          "activeLinesOfCode": 252,
+          "methodDefined": 8,
+          "methodCalls": 227,
+          "variables": 55
+        },
+        "C:/Users/kai/Desktop/cbom-java/src/main/java/com/example/SpringTest.java": {
+          "path": "C:/Users/kai/Desktop/cbom-java/src/main/java/com/example/SpringTest.java",
+          "totalLinesOfCode": 20,
+          "activeLinesOfCode": 14,
+          "methodDefined": 2,
+          "methodCalls": 6,
+          "variables": 3
+        },
+        "C:/Users/kai/Desktop/cbom-java/src/main/java/com/example/Tink.java": {
+          "path": "C:/Users/kai/Desktop/cbom-java/src/main/java/com/example/Tink.java",
+          "totalLinesOfCode": 54,
+          "activeLinesOfCode": 38,
+          "methodDefined": 3,
+          "methodCalls": 20,
+          "variables": 14
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "bomFormat" : "CycloneDX",
+  "specVersion" : "1.6",
+  "serialNumber" : "urn:uuid:0bde10d0-0fd0-4f01-b61b-c53443bb672d",
+  "version" : 1,
+  "metadata" : {
+    "timestamp" : "2024-11-12T08:18:52Z",
+    "tools" : [
+      {
+        "vendor" : "IBM",
+        "name" : "IBM Quantum Safe Explorer",
+        "version" : "1.0"
+      }
+    ]
+  }
+}

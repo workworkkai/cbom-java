@@ -1,0 +1,12 @@
+{
+    "qs-explorer.classPath": [
+        {
+            "path": "./target/classes;./target/dependency",
+            "workspace": "c:\\Users\\kai\\Desktop\\cbom-java"
+        }
+    ],
+    "qs-explorer.sourceFileExtensions": [
+        ".java"
+    ],
+    "java.compile.nullAnalysis.mode": "disabled"
+}

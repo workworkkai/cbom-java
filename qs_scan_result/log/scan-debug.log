@@ -1,0 +1,140 @@
+[2024-11-12 16:18:49,711] [000-exec-6] [DEBUG] [org.springframework.orm.jpa.JpaTransactionManager] - Creating new transaction with name [org.springframework.data.jpa.repository.support.SimpleJpaRepository.save]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+[2024-11-12 16:18:49,712] [000-exec-6] [DEBUG] [org.springframework.orm.jpa.JpaTransactionManager] - Opened new EntityManager [org.eclipse.persistence.internal.jpa.EntityManagerImpl@40e76a9e] for JPA transaction
+[2024-11-12 16:18:49,712] [000-exec-6] [DEBUG] [org.springframework.orm.jpa.JpaTransactionManager] - Not exposing JPA transaction [org.eclipse.persistence.internal.jpa.EntityManagerImpl@40e76a9e] as JDBC transaction because JpaDialect [org.springframework.orm.jpa.DefaultJpaDialect@40d70da] does not support JDBC Connection retrieval
+[2024-11-12 16:18:49,733] [000-exec-6] [DEBUG] [org.springframework.orm.jpa.JpaTransactionManager] - Initiating transaction commit
+[2024-11-12 16:18:49,734] [000-exec-6] [DEBUG] [org.springframework.orm.jpa.JpaTransactionManager] - Committing JPA transaction on EntityManager [org.eclipse.persistence.internal.jpa.EntityManagerImpl@40e76a9e]
+[2024-11-12 16:18:49,746] [000-exec-6] [DEBUG] [org.springframework.orm.jpa.JpaTransactionManager] - Closing JPA EntityManager [org.eclipse.persistence.internal.jpa.EntityManagerImpl@40e76a9e] after transaction
+[2024-11-12 16:18:49,747] [000-exec-6] [DEBUG] [org.springframework.orm.jpa.JpaTransactionManager] - Creating new transaction with name [org.springframework.data.jpa.repository.support.SimpleJpaRepository.findById]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly
+[2024-11-12 16:18:49,747] [000-exec-6] [DEBUG] [org.springframework.orm.jpa.JpaTransactionManager] - Opened new EntityManager [org.eclipse.persistence.internal.jpa.EntityManagerImpl@6b1613c0] for JPA transaction
+[2024-11-12 16:18:49,747] [000-exec-6] [DEBUG] [org.springframework.orm.jpa.JpaTransactionManager] - Not exposing JPA transaction [org.eclipse.persistence.internal.jpa.EntityManagerImpl@6b1613c0] as JDBC transaction because JpaDialect [org.springframework.orm.jpa.DefaultJpaDialect@40d70da] does not support JDBC Connection retrieval
+[2024-11-12 16:18:49,758] [000-exec-6] [DEBUG] [org.springframework.orm.jpa.JpaTransactionManager] - Initiating transaction commit
+[2024-11-12 16:18:49,758] [000-exec-6] [DEBUG] [org.springframework.orm.jpa.JpaTransactionManager] - Committing JPA transaction on EntityManager [org.eclipse.persistence.internal.jpa.EntityManagerImpl@6b1613c0]
+[2024-11-12 16:18:49,758] [000-exec-6] [DEBUG] [org.springframework.orm.jpa.JpaTransactionManager] - Closing JPA EntityManager [org.eclipse.persistence.internal.jpa.EntityManagerImpl@6b1613c0] after transaction
+[2024-11-12 16:18:49,765] [  Thread-1] [DEBUG] [org.springframework.orm.jpa.JpaTransactionManager] - Creating new transaction with name [org.springframework.data.jpa.repository.support.SimpleJpaRepository.findById]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly
+[2024-11-12 16:18:49,765] [  Thread-1] [DEBUG] [org.springframework.orm.jpa.JpaTransactionManager] - Opened new EntityManager [org.eclipse.persistence.internal.jpa.EntityManagerImpl@245842bf] for JPA transaction
+[2024-11-12 16:18:49,765] [  Thread-1] [DEBUG] [org.springframework.orm.jpa.JpaTransactionManager] - Not exposing JPA transaction [org.eclipse.persistence.internal.jpa.EntityManagerImpl@245842bf] as JDBC transaction because JpaDialect [org.springframework.orm.jpa.DefaultJpaDialect@40d70da] does not support JDBC Connection retrieval
+[2024-11-12 16:18:49,766] [  Thread-1] [DEBUG] [org.springframework.orm.jpa.JpaTransactionManager] - Initiating transaction commit
+[2024-11-12 16:18:49,767] [  Thread-1] [DEBUG] [org.springframework.orm.jpa.JpaTransactionManager] - Committing JPA transaction on EntityManager [org.eclipse.persistence.internal.jpa.EntityManagerImpl@245842bf]
+[2024-11-12 16:18:49,767] [  Thread-1] [DEBUG] [org.springframework.orm.jpa.JpaTransactionManager] - Closing JPA EntityManager [org.eclipse.persistence.internal.jpa.EntityManagerImpl@245842bf] after transaction
+[2024-11-12 16:18:49,767] [000-exec-6] [DEBUG] [org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json]
+[2024-11-12 16:18:49,775] [000-exec-6] [DEBUG] [org.springframework.web.servlet.DispatcherServlet] - Completed 201 CREATED, headers={masked}
+[2024-11-12 16:18:49,863] [4-thread-2] [DEBUG] [com.ibm.quantumsafe.lang.driver.DriverBase] - warn messgae PARAMETER_RUN_SINGLE_STEP 
+[2024-11-12 16:18:49,886] [4-thread-2] [DEBUG] [com.ibm.quantumsafe.sca.framework.standalone.StandaloneTask] -       	Start Task
+[2024-11-12 16:18:49,894] [4-thread-2] [DEBUG] [com.ibm.quantumsafe.sca.framework.standalone.StandaloneTask] -       	Start Task
+[2024-11-12 16:18:49,903] [4-thread-2] [DEBUG] [com.ibm.quantumsafe.sca.framework.standalone.StandaloneTask] - Current Path Root C:/Users/kai/Desktop/cbom-java : 
+[2024-11-12 16:18:49,905] [4-thread-2] [DEBUG] [com.ibm.quantumsafe.sca.framework.standalone.StandaloneTask] - Root Path C:/Users/kai/Desktop/cbom-java
+[2024-11-12 16:18:49,905] [4-thread-2] [DEBUG] [com.ibm.quantumsafe.sca.framework.standalone.StandaloneTask] - Data Path is outside of the Root Path C:/Users/kai/Desktop/cbom-java
+[2024-11-12 16:18:49,906] [4-thread-2] [DEBUG] [com.ibm.quantumsafe.sca.framework.standalone.StandaloneTask] - Scanning Directory 1 C:/Users/kai/Desktop/cbom-java/.git
+[2024-11-12 16:18:49,928] [4-thread-2] [DEBUG] [com.ibm.quantumsafe.sca.framework.standalone.StandaloneTask] - Scanning Directory 1 C:/Users/kai/Desktop/cbom-java/.gitignore
+[2024-11-12 16:18:49,929] [4-thread-2] [DEBUG] [com.ibm.quantumsafe.sca.framework.standalone.StandaloneTask] - Scanning Directory 1 C:/Users/kai/Desktop/cbom-java/.vscode
+[2024-11-12 16:18:49,930] [4-thread-2] [DEBUG] [com.ibm.quantumsafe.sca.framework.standalone.StandaloneTask] - Scanning Directory 1 C:/Users/kai/Desktop/cbom-java/LICENSE
+[2024-11-12 16:18:49,930] [4-thread-2] [DEBUG] [com.ibm.quantumsafe.sca.framework.standalone.StandaloneTask] - Scanning Directory 1 C:/Users/kai/Desktop/cbom-java/out
+[2024-11-12 16:18:49,932] [4-thread-2] [DEBUG] [com.ibm.quantumsafe.sca.framework.standalone.StandaloneTask] - Scanning Directory 1 C:/Users/kai/Desktop/cbom-java/pom.xml
+[2024-11-12 16:18:49,932] [4-thread-2] [DEBUG] [com.ibm.quantumsafe.sca.framework.standalone.StandaloneTask] - Scanning Directory 1 C:/Users/kai/Desktop/cbom-java/qs_scan_result
+[2024-11-12 16:18:49,933] [4-thread-2] [DEBUG] [com.ibm.quantumsafe.sca.framework.standalone.StandaloneTask] - Scanning Directory 1 C:/Users/kai/Desktop/cbom-java/src
+[2024-11-12 16:18:49,942] [4-thread-2] [DEBUG] [com.ibm.quantumsafe.sca.framework.standalone.StandaloneTask] - Scanning Directory 1 C:/Users/kai/Desktop/cbom-java/target
+[2024-11-12 16:18:50,594] [4-thread-2] [DEBUG] [com.ibm.quantumsafe.sca.framework.standalone.CryptoFileFilter] - Files with no/unusual imports, no package : 0
+[2024-11-12 16:18:50,653] [4-thread-2] [DEBUG] [com.ibm.quantumsafe.sca.framework.standalone.StandaloneTask] - Scanning Directory 2  : C:/Users/kai/Desktop/cbom-java /*. java 
+[2024-11-12 16:18:50,653] [4-thread-2] [DEBUG] [com.ibm.quantumsafe.sca.framework.standalone.StandaloneTask] - Exact Source File Match Selected
+[2024-11-12 16:18:50,655] [4-thread-2] [DEBUG] [com.ibm.quantumsafe.sca.framework.standalone.StandaloneTask] - Processing File Number : [ 1 / 4
+[2024-11-12 16:18:50,655] [4-thread-2] [DEBUG] [com.ibm.quantumsafe.sca.framework.standalone.StandaloneTask] - Processing File PathC:/Users/kai/Desktop/cbom-java/src/main/java/com/example/JcaTest.java : 
+[2024-11-12 16:18:50,684] [4-thread-2] [DEBUG] [com.ibm.quantumsafe.sca.framework.standalone.TaskSupportImpl] - Opening File for Write : C:/Users/kai/Desktop/cbom-java/qs_scan_result/java/01_parsed_tree/src/main/java/com/example/JcaTest.java-parsed-tree.json [TARGET_PATH]
+[2024-11-12 16:18:50,731] [4-thread-2] [DEBUG] [com.ibm.quantumsafe.sca.framework.standalone.TaskSupportImpl] - Flushing And Closing File : C:/Users/kai/Desktop/cbom-java/qs_scan_result/java/01_parsed_tree/src/main/java/com/example/JcaTest.java-parsed-tree.json
+[2024-11-12 16:18:50,732] [4-thread-2] [DEBUG] [com.ibm.quantumsafe.sca.framework.common.SSAGraphModelImpl] - Language Set To java : 
+[2024-11-12 16:18:50,773] [4-thread-2] [DEBUG] [com.ibm.quantumsafe.sca.typeresolver.javac.ClassInfoImpl] - Running Task: Loading class data from Type Resolver
+[2024-11-12 16:18:50,773] [4-thread-2] [DEBUG] [com.ibm.quantumsafe.sca.typeresolver.javac.ClassInfoImpl] - Get classInfo for sourceClassName com.example package:  import size [0]
+[2024-11-12 16:18:50,778] [4-thread-2] [DEBUG] [com.ibm.quantumsafe.sca.typeresolver.javac.ResolveLocalClass] - An exception occurred due to missing class com.example
+[2024-11-12 16:18:50,782] [4-thread-2] [DEBUG] [com.ibm.quantumsafe.sca.typeresolver.javac.ResolveJavaClasses] - Class Not Found Exception in ResolveJavaClasses :: loadClassDetails com.example
+[2024-11-12 16:18:50,784] [4-thread-2] [DEBUG] [com.ibm.quantumsafe.sca.typeresolver.javac.ResolveJavaClasses] - Class Not Found Exception in ResolveJavaClasses :: loadClassDetails com.example
+[2024-11-12 16:18:50,786] [4-thread-2] [DEBUG] [com.ibm.quantumsafe.sca.typeresolver.javac.ResolveJavaClasses] - Class Not Found Exception in ResolveJavaClasses :: loadClassDetails com.example
+[2024-11-12 16:18:50,788] [4-thread-2] [DEBUG] [com.ibm.quantumsafe.sca.typeresolver.javac.ResolveJavaClasses] - Class Not Found Exception in ResolveJavaClasses :: loadClassDetails com.example
+[2024-11-12 16:18:50,788] [000-exec-9] [DEBUG] [org.springframework.security.web.FilterChainProxy] - Securing GET /api/v1/scan/1deae850b9584ad298928f1b99519d7a/status
+[2024-11-12 16:18:50,789] [000-exec-9] [DEBUG] [org.springframework.security.web.FilterChainProxy] - Secured GET /api/v1/scan/1deae850b9584ad298928f1b99519d7a/status
+[2024-11-12 16:18:50,790] [4-thread-2] [DEBUG] [com.ibm.quantumsafe.sca.typeresolver.javac.ResolveJavaClasses] - Class Not Found Exception in ResolveJavaClasses :: loadClassDetails com.example
+[2024-11-12 16:18:50,791] [4-thread-2] [DEBUG] [com.ibm.quantumsafe.sca.typeresolver.javac.ResolveJavaClasses] - Class Not Found Exception in ResolveJavaClasses :: loadClassDetails com.example
+[2024-11-12 16:18:50,794] [4-thread-2] [DEBUG] [com.ibm.quantumsafe.sca.typeresolver.javac.ResolveJavaClasses] - Class Not Found Exception in ResolveJavaClasses :: loadClassDetails com.example
+[2024-11-12 16:18:50,798] [4-thread-2] [DEBUG] [com.ibm.quantumsafe.sca.typeresolver.javac.ResolveJavaClasses] - Class Not Found Exception in ResolveJavaClasses :: loadClassDetails com.example
+[2024-11-12 16:18:50,800] [4-thread-2] [DEBUG] [com.ibm.quantumsafe.sca.typeresolver.javac.ResolveJavaClasses] - Class Not Found Exception in ResolveJavaClasses :: loadClassDetails com.example
+[2024-11-12 16:18:50,802] [4-thread-2] [DEBUG] [com.ibm.quantumsafe.sca.typeresolver.javac.ResolveJavaClasses] - Class Not Found Exception in ResolveJavaClasses :: loadClassDetails com.example
+[2024-11-12 16:18:50,803] [000-exec-9] [DEBUG] [org.springframework.orm.jpa.JpaTransactionManager] - Creating new transaction with name [org.springframework.data.jpa.repository.support.SimpleJpaRepository.findById]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly
+[2024-11-12 16:18:50,803] [000-exec-9] [DEBUG] [org.springframework.orm.jpa.JpaTransactionManager] - Opened new EntityManager [org.eclipse.persistence.internal.jpa.EntityManagerImpl@78a50e55] for JPA transaction
+[2024-11-12 16:18:50,803] [000-exec-9] [DEBUG] [org.springframework.orm.jpa.JpaTransactionManager] - Not exposing JPA transaction [org.eclipse.persistence.internal.jpa.EntityManagerImpl@78a50e55] as JDBC transaction because JpaDialect [org.springframework.orm.jpa.DefaultJpaDialect@40d70da] does not support JDBC Connection retrieval
+[2024-11-12 16:18:50,804] [000-exec-9] [DEBUG] [org.springframework.orm.jpa.JpaTransactionManager] - Initiating transaction commit
+[2024-11-12 16:18:50,804] [000-exec-9] [DEBUG] [org.springframework.orm.jpa.JpaTransactionManager] - Committing JPA transaction on EntityManager [org.eclipse.persistence.internal.jpa.EntityManagerImpl@78a50e55]
+[2024-11-12 16:18:50,804] [4-thread-2] [DEBUG] [com.ibm.quantumsafe.sca.typeresolver.javac.ResolveJavaClasses] - Class Not Found Exception in ResolveJavaClasses :: loadClassDetails com.example
+[2024-11-12 16:18:50,804] [000-exec-9] [DEBUG] [org.springframework.orm.jpa.JpaTransactionManager] - Closing JPA EntityManager [org.eclipse.persistence.internal.jpa.EntityManagerImpl@78a50e55] after transaction
+[2024-11-12 16:18:50,804] [000-exec-9] [DEBUG] [com.ibm.quantumsafe.service.impl.CryptoScannerServiceImpl] - QS-Explorer : Track request for the scan status initiated for the scan ID 1deae850b9584ad298928f1b99519d7a
+[2024-11-12 16:18:50,806] [4-thread-2] [DEBUG] [com.ibm.quantumsafe.sca.typeresolver.javac.ResolveJavaClasses] - Class Not Found Exception in ResolveJavaClasses :: loadClassDetails com.example
+[2024-11-12 16:18:50,806] [000-exec-9] [DEBUG] [com.ibm.quantumsafe.service.impl.CryptoScannerServiceImpl] - QS-Explorer : Track request for the scan status returned 'In Progress' status for ID 1deae850b9584ad298928f1b99519d7a
+[2024-11-12 16:18:50,807] [4-thread-2] [DEBUG] [com.ibm.quantumsafe.sca.typeresolver.javac.ResolveJavaClasses] - Class Not Found Exception in ResolveJavaClasses :: loadClassDetails com.example
+[2024-11-12 16:18:50,808] [4-thread-2] [DEBUG] [com.ibm.quantumsafe.sca.typeresolver.javac.ResolveJavaClasses] - Class Not Found Exception in ResolveJavaClasses :: loadClassDetails com.example
+[2024-11-12 16:18:50,810] [4-thread-2] [DEBUG] [com.ibm.quantumsafe.sca.typeresolver.javac.ResolveJavaClasses] - Class Not Found Exception in ResolveJavaClasses :: loadClassDetails com.example
+[2024-11-12 16:18:50,811] [4-thread-2] [DEBUG] [com.ibm.quantumsafe.sca.typeresolver.javac.ResolveJavaClasses] - Class Not Found Exception in ResolveJavaClasses :: loadClassDetails com.example
+[2024-11-12 16:18:50,812] [4-thread-2] [DEBUG] [com.ibm.quantumsafe.sca.typeresolver.javac.ResolveJavaClasses] - Class Not Found Exception in ResolveJavaClasses :: loadClassDetails com.example
+[2024-11-12 16:18:50,814] [4-thread-2] [DEBUG] [com.ibm.quantumsafe.sca.typeresolver.javac.ResolveJavaClasses] - Class Not Found Exception in ResolveJavaClasses :: loadClassDetails com.example
+[2024-11-12 16:18:50,816] [4-thread-2] [DEBUG] [com.ibm.quantumsafe.sca.typeresolver.javac.ResolveJavaClasses] - Class Not Found Exception in ResolveJavaClasses :: loadClassDetails com.example
+[2024-11-12 16:18:50,818] [4-thread-2] [DEBUG] [com.ibm.quantumsafe.sca.typeresolver.javac.ResolveJavaClasses] - Class Not Found Exception in ResolveJavaClasses :: loadClassDetails com.example
+[2024-11-12 16:18:50,819] [4-thread-2] [DEBUG] [com.ibm.quantumsafe.sca.typeresolver.javac.ResolveJavaClasses] - Class Not Found Exception in ResolveJavaClasses :: loadClassDetails com.example
+[2024-11-12 16:18:50,821] [4-thread-2] [DEBUG] [com.ibm.quantumsafe.sca.typeresolver.javac.ResolveJavaClasses] - Class Not Found Exception in ResolveJavaClasses :: loadClassDetails com.example
+[2024-11-12 16:18:50,822] [4-thread-2] [DEBUG] [com.ibm.quantumsafe.sca.typeresolver.javac.ResolveJavaClasses] - Class Not Found Exception in ResolveJavaClasses :: loadClassDetails com.example
+[2024-11-12 16:18:50,824] [4-thread-2] [DEBUG] [com.ibm.quantumsafe.sca.typeresolver.javac.ResolveJavaClasses] - Class Not Found Exception in ResolveJavaClasses :: loadClassDetails com.example
+[2024-11-12 16:18:50,824] [4-thread-2] [DEBUG] [com.ibm.quantumsafe.sca.typeresolver.javac.ClassInfoImpl] - com.example not found.
+[2024-11-12 16:18:50,824] [4-thread-2] [DEBUG] [com.ibm.quantumsafe.sca.typeresolver.javac.ClassInfoImpl] -  *** Time taken to resolve the classInfo call : 50 ms
+[2024-11-12 16:18:50,824] [4-thread-2] [DEBUG] [com.ibm.quantumsafe.sca.typeresolver.javac.ClassInfoImpl] - Running Task: Loading class data from Type Resolver
+[2024-11-12 16:18:50,824] [4-thread-2] [DEBUG] [com.ibm.quantumsafe.sca.typeresolver.javac.ClassInfoImpl] - Get classInfo for sourceClassName com.example.JcaTest package: com.example import size [9]
+[2024-11-12 16:18:50,825] [4-thread-2] [DEBUG] [com.ibm.quantumsafe.sca.framework.common.JavaGenerateGraphModelImpl] - Skipping file C:/Users/kai/Desktop/cbom-java/src/main/java/com/example/JcaTest.java
+[2024-11-12 16:18:50,826] [4-thread-2] [DEBUG] [com.ibm.quantumsafe.sca.framework.standalone.StandaloneTask] - Processing File Number : [ 2 / 4
+[2024-11-12 16:18:50,826] [4-thread-2] [DEBUG] [com.ibm.quantumsafe.sca.framework.standalone.StandaloneTask] - Processing File PathC:/Users/kai/Desktop/cbom-java/src/main/java/com/example/NimbusJoseTest.java : 
+[2024-11-12 16:18:50,881] [4-thread-2] [DEBUG] [com.ibm.quantumsafe.sca.framework.standalone.TaskSupportImpl] - Opening File for Write : C:/Users/kai/Desktop/cbom-java/qs_scan_result/java/01_parsed_tree/src/main/java/com/example/NimbusJoseTest.java-parsed-tree.json [TARGET_PATH]
+[2024-11-12 16:18:50,884] [000-exec-9] [DEBUG] [org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/xml;charset=UTF-8, text/xml;charset=UTF-8, application/*+xml;charset=UTF-8]
+[2024-11-12 16:18:50,886] [000-exec-9] [DEBUG] [org.springframework.web.servlet.DispatcherServlet] - Completed 200 OK, headers={masked}
+[2024-11-12 16:18:50,987] [4-thread-2] [DEBUG] [com.ibm.quantumsafe.sca.framework.standalone.TaskSupportImpl] - Flushing And Closing File : C:/Users/kai/Desktop/cbom-java/qs_scan_result/java/01_parsed_tree/src/main/java/com/example/NimbusJoseTest.java-parsed-tree.json
+[2024-11-12 16:18:50,988] [4-thread-2] [DEBUG] [com.ibm.quantumsafe.sca.typeresolver.javac.ClassInfoImpl] - Running Task: Loading class data from Type Resolver
+[2024-11-12 16:18:50,989] [4-thread-2] [DEBUG] [com.ibm.quantumsafe.sca.typeresolver.javac.ClassInfoImpl] - Get classInfo for sourceClassName com.example package:  import size [0]
+[2024-11-12 16:18:50,989] [4-thread-2] [DEBUG] [com.ibm.quantumsafe.sca.typeresolver.javac.ClassInfoImpl] - ClassInfo result generated from hashing cache for sourceClassName com.example 
+[2024-11-12 16:18:50,989] [4-thread-2] [DEBUG] [com.ibm.quantumsafe.sca.typeresolver.javac.ClassInfoImpl] -  *** Time taken to resolve the classInfo call : 0 ms
+[2024-11-12 16:18:50,989] [4-thread-2] [DEBUG] [com.ibm.quantumsafe.sca.typeresolver.javac.ClassInfoImpl] - Running Task: Loading class data from Type Resolver
+[2024-11-12 16:18:50,989] [4-thread-2] [DEBUG] [com.ibm.quantumsafe.sca.typeresolver.javac.ClassInfoImpl] - Get classInfo for sourceClassName com.example.NimbusJoseTest package: com.example import size [18]
+[2024-11-12 16:18:50,989] [4-thread-2] [DEBUG] [com.ibm.quantumsafe.sca.framework.common.JavaGenerateGraphModelImpl] - Skipping file C:/Users/kai/Desktop/cbom-java/src/main/java/com/example/NimbusJoseTest.java
+[2024-11-12 16:18:50,990] [4-thread-2] [DEBUG] [com.ibm.quantumsafe.sca.framework.standalone.StandaloneTask] - Processing File Number : [ 3 / 4
+[2024-11-12 16:18:50,990] [4-thread-2] [DEBUG] [com.ibm.quantumsafe.sca.framework.standalone.StandaloneTask] - Processing File PathC:/Users/kai/Desktop/cbom-java/src/main/java/com/example/BouncyCastleTest.java : 
+[2024-11-12 16:18:51,070] [4-thread-2] [DEBUG] [com.ibm.quantumsafe.sca.framework.standalone.TaskSupportImpl] - Opening File for Write : C:/Users/kai/Desktop/cbom-java/qs_scan_result/java/01_parsed_tree/src/main/java/com/example/BouncyCastleTest.java-parsed-tree.json [TARGET_PATH]
+[2024-11-12 16:18:51,135] [4-thread-2] [DEBUG] [com.ibm.quantumsafe.sca.framework.standalone.TaskSupportImpl] - Flushing And Closing File : C:/Users/kai/Desktop/cbom-java/qs_scan_result/java/01_parsed_tree/src/main/java/com/example/BouncyCastleTest.java-parsed-tree.json
+[2024-11-12 16:18:51,137] [4-thread-2] [DEBUG] [com.ibm.quantumsafe.sca.typeresolver.javac.ClassInfoImpl] - Running Task: Loading class data from Type Resolver
+[2024-11-12 16:18:51,137] [4-thread-2] [DEBUG] [com.ibm.quantumsafe.sca.typeresolver.javac.ClassInfoImpl] - Get classInfo for sourceClassName com.example package:  import size [0]
+[2024-11-12 16:18:51,137] [4-thread-2] [DEBUG] [com.ibm.quantumsafe.sca.typeresolver.javac.ClassInfoImpl] - ClassInfo result generated from hashing cache for sourceClassName com.example 
+[2024-11-12 16:18:51,137] [4-thread-2] [DEBUG] [com.ibm.quantumsafe.sca.typeresolver.javac.ClassInfoImpl] -  *** Time taken to resolve the classInfo call : 0 ms
+[2024-11-12 16:18:51,137] [4-thread-2] [DEBUG] [com.ibm.quantumsafe.sca.typeresolver.javac.ClassInfoImpl] - Running Task: Loading class data from Type Resolver
+[2024-11-12 16:18:51,137] [4-thread-2] [DEBUG] [com.ibm.quantumsafe.sca.typeresolver.javac.ClassInfoImpl] - Get classInfo for sourceClassName com.example.BouncyCastleTest package: com.example import size [47]
+[2024-11-12 16:18:51,138] [4-thread-2] [DEBUG] [com.ibm.quantumsafe.sca.framework.common.JavaGenerateGraphModelImpl] - Skipping file C:/Users/kai/Desktop/cbom-java/src/main/java/com/example/BouncyCastleTest.java
+[2024-11-12 16:18:51,139] [4-thread-2] [DEBUG] [com.ibm.quantumsafe.sca.framework.standalone.StandaloneTask] - Processing File Number : [ 4 / 4
+[2024-11-12 16:18:51,139] [4-thread-2] [DEBUG] [com.ibm.quantumsafe.sca.framework.standalone.StandaloneTask] - Processing File PathC:/Users/kai/Desktop/cbom-java/src/main/java/com/example/Main.java : 
+[2024-11-12 16:18:51,145] [4-thread-2] [DEBUG] [com.ibm.quantumsafe.sca.framework.standalone.TaskSupportImpl] - Opening File for Write : C:/Users/kai/Desktop/cbom-java/qs_scan_result/java/01_parsed_tree/src/main/java/com/example/Main.java-parsed-tree.json [TARGET_PATH]
+[2024-11-12 16:18:51,150] [4-thread-2] [DEBUG] [com.ibm.quantumsafe.sca.framework.standalone.TaskSupportImpl] - Flushing And Closing File : C:/Users/kai/Desktop/cbom-java/qs_scan_result/java/01_parsed_tree/src/main/java/com/example/Main.java-parsed-tree.json
+[2024-11-12 16:18:51,151] [4-thread-2] [DEBUG] [com.ibm.quantumsafe.sca.typeresolver.javac.ClassInfoImpl] - Running Task: Loading class data from Type Resolver
+[2024-11-12 16:18:51,151] [4-thread-2] [DEBUG] [com.ibm.quantumsafe.sca.typeresolver.javac.ClassInfoImpl] - Get classInfo for sourceClassName com.example package:  import size [0]
+[2024-11-12 16:18:51,151] [4-thread-2] [DEBUG] [com.ibm.quantumsafe.sca.typeresolver.javac.ClassInfoImpl] - ClassInfo result generated from hashing cache for sourceClassName com.example 
+[2024-11-12 16:18:51,151] [4-thread-2] [DEBUG] [com.ibm.quantumsafe.sca.typeresolver.javac.ClassInfoImpl] -  *** Time taken to resolve the classInfo call : 0 ms
+[2024-11-12 16:18:51,152] [4-thread-2] [DEBUG] [com.ibm.quantumsafe.sca.typeresolver.javac.ClassInfoImpl] - Running Task: Loading class data from Type Resolver
+[2024-11-12 16:18:51,152] [4-thread-2] [DEBUG] [com.ibm.quantumsafe.sca.typeresolver.javac.ClassInfoImpl] - Get classInfo for sourceClassName com.example.Main package: com.example import size [2]
+[2024-11-12 16:18:51,152] [4-thread-2] [DEBUG] [com.ibm.quantumsafe.sca.framework.common.JavaGenerateGraphModelImpl] - Skipping file C:/Users/kai/Desktop/cbom-java/src/main/java/com/example/Main.java
+[2024-11-12 16:18:51,154] [4-thread-2] [DEBUG] [com.ibm.quantumsafe.lang.driver.DriverBase] - Total classInfo calls: 8 , total time taken: 50 ms
+[2024-11-12 16:18:51,999] [  Thread-1] [DEBUG] [com.ibm.quantumsafe.analytics.report.CryptoResponseImpl] - Trace based assetId generation enabled: false
+[2024-11-12 16:18:52,175] [  Thread-1] [DEBUG] [org.springframework.orm.jpa.JpaTransactionManager] - Creating new transaction with name [org.springframework.data.jpa.repository.support.SimpleJpaRepository.save]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+[2024-11-12 16:18:52,175] [  Thread-1] [DEBUG] [org.springframework.orm.jpa.JpaTransactionManager] - Opened new EntityManager [org.eclipse.persistence.internal.jpa.EntityManagerImpl@617b169d] for JPA transaction
+[2024-11-12 16:18:52,175] [  Thread-1] [DEBUG] [org.springframework.orm.jpa.JpaTransactionManager] - Not exposing JPA transaction [org.eclipse.persistence.internal.jpa.EntityManagerImpl@617b169d] as JDBC transaction because JpaDialect [org.springframework.orm.jpa.DefaultJpaDialect@40d70da] does not support JDBC Connection retrieval
+[2024-11-12 16:18:52,176] [  Thread-1] [DEBUG] [org.springframework.orm.jpa.JpaTransactionManager] - Initiating transaction commit
+[2024-11-12 16:18:52,176] [  Thread-1] [DEBUG] [org.springframework.orm.jpa.JpaTransactionManager] - Committing JPA transaction on EntityManager [org.eclipse.persistence.internal.jpa.EntityManagerImpl@617b169d]
+[2024-11-12 16:18:52,183] [  Thread-1] [DEBUG] [org.springframework.orm.jpa.JpaTransactionManager] - Closing JPA EntityManager [org.eclipse.persistence.internal.jpa.EntityManagerImpl@617b169d] after transaction
+[2024-11-12 16:18:56,014] [000-exec-2] [DEBUG] [org.springframework.security.web.FilterChainProxy] - Securing GET /api/v1/scan/1deae850b9584ad298928f1b99519d7a/status
+[2024-11-12 16:18:56,016] [000-exec-2] [DEBUG] [org.springframework.security.web.FilterChainProxy] - Secured GET /api/v1/scan/1deae850b9584ad298928f1b99519d7a/status
+[2024-11-12 16:18:56,017] [000-exec-2] [DEBUG] [org.springframework.orm.jpa.JpaTransactionManager] - Creating new transaction with name [org.springframework.data.jpa.repository.support.SimpleJpaRepository.findById]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly
+[2024-11-12 16:18:56,018] [000-exec-2] [DEBUG] [org.springframework.orm.jpa.JpaTransactionManager] - Opened new EntityManager [org.eclipse.persistence.internal.jpa.EntityManagerImpl@10bef424] for JPA transaction
+[2024-11-12 16:18:56,018] [000-exec-2] [DEBUG] [org.springframework.orm.jpa.JpaTransactionManager] - Not exposing JPA transaction [org.eclipse.persistence.internal.jpa.EntityManagerImpl@10bef424] as JDBC transaction because JpaDialect [org.springframework.orm.jpa.DefaultJpaDialect@40d70da] does not support JDBC Connection retrieval
+[2024-11-12 16:18:56,018] [000-exec-2] [DEBUG] [org.springframework.orm.jpa.JpaTransactionManager] - Initiating transaction commit
+[2024-11-12 16:18:56,018] [000-exec-2] [DEBUG] [org.springframework.orm.jpa.JpaTransactionManager] - Committing JPA transaction on EntityManager [org.eclipse.persistence.internal.jpa.EntityManagerImpl@10bef424]
+[2024-11-12 16:18:56,019] [000-exec-2] [DEBUG] [org.springframework.orm.jpa.JpaTransactionManager] - Closing JPA EntityManager [org.eclipse.persistence.internal.jpa.EntityManagerImpl@10bef424] after transaction
+[2024-11-12 16:18:56,019] [000-exec-2] [DEBUG] [com.ibm.quantumsafe.service.impl.CryptoScannerServiceImpl] - QS-Explorer : Track request for the scan status initiated for the scan ID 1deae850b9584ad298928f1b99519d7a
+[2024-11-12 16:18:56,019] [000-exec-2] [DEBUG] [com.ibm.quantumsafe.service.impl.CryptoScannerServiceImpl] - QS-Explorer : Track request for the scan status returned 'DONE' status for ID 1deae850b9584ad298928f1b99519d7a
+[2024-11-12 16:18:56,020] [000-exec-2] [DEBUG] [org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/xml;charset=UTF-8, text/xml;charset=UTF-8, application/*+xml;charset=UTF-8]
+[2024-11-12 16:18:56,022] [000-exec-2] [DEBUG] [org.springframework.web.servlet.DispatcherServlet] - Completed 200 OK, headers={masked}
